@@ -14,10 +14,6 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api-docs', app, document);
 
-  const testA = 'TestA';
-  const testB = 'TestB';
-  const testC = 'TestC';
-
   await app.listen(3000);
 }
 
