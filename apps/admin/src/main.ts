@@ -16,6 +16,7 @@ async function bootstrap() {
 
   const testA = 'TestA';
   const testB = 'TestB';
+  const testC = 'TestC';
 
   await app.listen(3000);
 }
